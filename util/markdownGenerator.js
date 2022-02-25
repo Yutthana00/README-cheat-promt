@@ -38,6 +38,4 @@ function markdownGenerator(data) {
   * [License] (#License)
   * [Email] (#Email)
   `
-
-
 }
