@@ -37,5 +37,21 @@ function markdownGenerator(data) {
   * [Tests] (#Test)
   * [License] (#License)
   * [Email] (#Email)
+  
+  #Installation
+  The following is necessary dependencies must be installed to run this application smoothly.
+  # Usage
+  In order to use this application, $(data.Usage)
+  #License
+  This project is licensed by the $(data.License) license.
+  ![Github license]
+  #Contribution
+  Contributors: $(data.Contrbution)
+  #Tests
+  The following is needed to run the test: $(data.Test)
+  #Questions
+  Further questions about this Repo, please contact $(data.Email) 
+
+  
   `
 }
