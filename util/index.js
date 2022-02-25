@@ -25,7 +25,7 @@ const questions = [
     }, 
         {
         type: "input",
-        message: "Enter installation instructions. (What does the user need to install to run is app?)",
+        message: "Enter installation instructions. (What does the user need to install to run is app?) (e.g Dependencies)",
         Name: "Installation Instructions",
     }, 
         {
@@ -40,23 +40,23 @@ const questions = [
     }, 
         {
         type: "input",
-        message: "Enter test instructions. ()",
+        message: "Enter test instructions. (The following is needed to run this test)",
         Name: "Test Instrctions",
     }, 
         {
         type: "input",
         message: "License. (which license type this app is covered under?)",
-        Name: "Lincense",
+        Name: "License",
     }, 
         {
         type: "input",
         message: "Enter GitHub username: (Link to your github profile page)",
-        Name: "GitHub User Name",
+        Name: "userName",
     }, 
         {
         type: "input",
         message: "Enter your email address: (This is how to reach me with additional questions)",
-        Name: "User Email Address",
+        Name: "Email Address",
     },
 ]
 
