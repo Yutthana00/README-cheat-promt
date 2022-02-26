@@ -20,12 +20,10 @@
 // module.exports = generateMarkdown;
 
 
-
-
 // Function to generate markdown for README 
 
 function markdownGenerator(data) {
-    return `
+    var content = `# ${response.title}
   # $(data.Title)
   https://github.com/$(data.UserName)/$(data.Title)
   #Description
@@ -51,7 +49,8 @@ function markdownGenerator(data) {
   The following is needed to run the test: $(data.Test)
   #Questions
   Further questions about this Repo, please contact $(data.Email) 
-
-  
   `
-}
+  return content; 
+};
+
+module.exports = markdownGenerator;

@@ -1,9 +1,8 @@
-// 
-const inquirer = require ("inquirer");
+const inquirer = require ('inquirer');
 const fs = require ('fs')
 const util = require ("util")
 
-const generateMarkdown = require ('./markdownGenerator');
+const generateMarkdown = require ("./markdownGenerator.js");
 
 
 // array of questions for README generation
@@ -45,8 +44,15 @@ const questions = [
     }, 
         {
         type: "input",
-        message: "License. (which license type this app is covered under?)",
+        message: "Please select the type of license you would like to use.",
         Name: "License",
+        choices: [
+            "APACHE 2.O",
+            "BSD 3",
+            "GVL-GPL 3.0",
+            "MIT",
+            "None"
+        ]
     }, 
         {
         type: "input",
