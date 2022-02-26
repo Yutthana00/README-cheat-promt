@@ -15,16 +15,16 @@ let questions = [
         name: "description",
     },{
         type: "input",
-        message: "What dependencies users need to run this app? ",
-        name: "installation ",
-    },{
-        type: "input",
         message: "Who contributed to this project?.",
         name: "contribution",
     },{
         type: "input",
         message: "What command are needed to test/lunch this app?",
         name: "test",
+    },{
+        type: "input",
+        message: "How to install dependencies to use this app? ",
+        name: "installation ",
     },{
         type: "input",
         message: "Enter instructions on how to use this app",
