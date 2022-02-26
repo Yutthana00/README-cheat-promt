@@ -30,7 +30,7 @@ function fileGenerator(response) {
 
   ### **Github-Repositories**:
   <br>
-  https://github.com/${response.userName}/${response.title}
+  [Github](https://github.com/${response.userName}/${response.title})
   
   <br>
   
