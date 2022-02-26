@@ -15,20 +15,20 @@ let questions = [
         name: "description",
     },{
         type: "input",
-        message: "What does the user need to install and run this app. (Dependencies?) ",
+        message: "What dependencies users need to run this app? ",
         name: "installation ",
-    },{
-        type: "input",
-        message: "Enter instructions on how to use this app",
-        name: "usage",
     },{
         type: "input",
         message: "Who contributed to this project?.",
         name: "contribution",
     },{
         type: "input",
-        message: "What commands are needed to test this app?",
+        message: "What command are needed to test/lunch this app?",
         name: "test",
+    },{
+        type: "input",
+        message: "Enter instructions on how to use this app",
+        name: "usage",
     },{
         type: "list",
         message: "Please select the type of license you would like to use.",
