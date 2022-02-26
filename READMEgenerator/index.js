@@ -7,27 +7,27 @@ var inquirer = require('inquirer');
 let questions = [
     {
         type: "input",
-        message: "Create project title",
+        message: "Project title",
         name: "title",
     },{
         type: "input",
-        message: "What is this project about? Give detailed descriptions",
+        message: "Project descriptions",
         name: "description",
     },{
         type: "input",
-        message: "Enter installation instructions. (What does the user need to install to run is app?) (e.g Dependencies)",
+        message: "What does the user need to install and run this app. (Dependencies?) ",
         name: "installation ",
     },{
         type: "input",
-        message: "Enter usage guildline. (How to use this app)",
+        message: "Enter instructions on how to use this app",
         name: "usage",
     },{
         type: "input",
-        message: "create contribution guidelines. ()",
+        message: "Who contributed to this project?.",
         name: "contribution",
     },{
         type: "input",
-        message: "Enter test instructions. (The following is needed to run this test)",
+        message: "What commands are needed to test this app?",
         name: "test",
     },{
         type: "list",
@@ -42,11 +42,11 @@ let questions = [
         ],
     },{
         type: "input",
-        message: "Enter GitHub username: (Link to your github profile page)",
+        message: "Enter your GitHub username",
         name: "userName",
     },{
         type: "input",
-        message: "Enter your email address: (This is how to reach me with additional questions)",
+        message: "Enter your email address",
         name: "email",
     }
 ];
