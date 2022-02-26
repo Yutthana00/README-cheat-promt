@@ -16,6 +16,18 @@ function fileGenerator(response) {
   
   <br>
 
+  ## Table of contents
+  * [Github Repository](#Github-Repositories)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Contributor](#Contribution)
+  * [Tests](#Test)
+  * [License](#License)
+  * [Github User Name](#UserName)
+  * [Email](#Email)
+  
+  <br>
+
   **Github-Repositories**:
   <br>
   https://github.com/${response.userName}/${response.title}
@@ -31,19 +43,6 @@ function fileGenerator(response) {
 
   ![Github](https://img.shields.io/github/license/${response.userName}/${response.title})
   
-  <br>
-
-  ## Table of contents
-  * [Github Repository](#Github-Repositories)
-  * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [Contributor](#Contribution)
-  * [Tests](#Test)
-  * [License](#License)
-  * [Github User Name](#UserName)
-  * [Email](#Email)
-  
-  <br>
   
   **Installation**:
   <br>
@@ -65,7 +64,7 @@ function fileGenerator(response) {
 
   **Tests**:
   <br>
-  For testing, please enter **${response.test}** into your terminal.
+  For testing, please enter * **${response.test}** * into your terminal.
   
   <br>
 
