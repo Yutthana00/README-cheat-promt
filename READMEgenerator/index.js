@@ -23,8 +23,8 @@ let questions = [
         name: "test",
     },{
         type: "input",
-        message: "How to install dependencies to use this app? ",
-        name: "installation ",
+        message: "Which dependencies to install to use this app? ",
+        name: "installation",
     },{
         type: "input",
         message: "Enter instructions on how to use this app",

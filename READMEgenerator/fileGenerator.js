@@ -46,7 +46,7 @@ function fileGenerator(response) {
   
   **Installation**:
   <br>
-  To use this app, ${response.installation} 
+  To use this app, ${response.installation} has to be installed. Please install by putting npm i, then, npm init, in the terminal to start install. 
   
   <br>
   
