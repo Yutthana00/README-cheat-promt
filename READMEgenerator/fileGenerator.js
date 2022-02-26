@@ -4,7 +4,7 @@ function fileGenerator(response) {
   
   ${response.title}
   
-  #### Description
+  #### Description:
   ${response.description}
   
   ## Table of contents
@@ -18,32 +18,32 @@ function fileGenerator(response) {
   
   ###### [Back to Table of Contents](#Table-of-Contents)
   
-  **###Installation**
+  ###**Installation**:
   ${response.installation} 
   
   
-  **###Usage**
+  ###**Usage**:
   ${response.usage}
 
  
-  **###Contribution**
+  ###**Contribution** :
   ${response.contribution}
  
   
-  **###Tests**
+  ### **Tests** :
   ${response.test}
   
 
   
-  **###userName**
+  ###**userName**:
   ${response.userName} 
   
   
-  **###email**
+  ###**email**:
   ${response.email}
   
  
-  **###License**
+  ###**License**:
   ${response.license}
   
   ######[Back to Table of Contents](#table)
