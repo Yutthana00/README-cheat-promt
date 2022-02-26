@@ -1,0 +1,25 @@
+{
+  "name": "readme-cheat-promt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yutthana00/README-cheat-promt.git"
+  },
+  "keywords": [
+    "npm",
+    "README.md",
+    "generator",
+    "node"
+  ],
+  "author": "Yutthana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yutthana00/README-cheat-promt/issues"
+  },
+  "homepage": "https://github.com/Yutthana00/README-cheat-promt#readme"
+}
