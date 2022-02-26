@@ -10,15 +10,15 @@ function fileGenerator(response) {
 
   <br>
 
-  **Description**:
+  ### **Description**:
   <br>
   ${response.description}
   
   <br>
 
   ## Table of contents
-  * Clicking [Github Repository](#Github-Repositories)
-  * Clicking [Installation](#Installation)
+  * [Github Repository](#Github-Repositories)
+  * [Installation](#Installation)
   * [Usage](#Usage)
   * [Contributor](#Contribution)
   * [Tests](#Test)
@@ -28,14 +28,14 @@ function fileGenerator(response) {
   
   <br>
 
-  **Github-Repositories**:
+  ### **Github-Repositories**:
   <br>
   https://github.com/${response.userName}/${response.title}
   
   <br>
   
  
-  **License**:
+  ### **License**:
   <br>
   This project is licensed under the ${response.license} license.
 
