@@ -4,7 +4,7 @@ function fileGenerator(response) {
   # dog
   ${response.title}
   
-  # Description
+  #### Description
   ${response.description}
   
   ## Table of contents
@@ -18,36 +18,36 @@ function fileGenerator(response) {
   
   ###### [Back to Table of Contents](#Table-of-Contents)
   
-  # Installation
-  ${response.installtion} 
+  ### Installation
+  ${response.installation} 
   
   
-  # Usage
+  ### Usage
   ${response.usage}
 
   ###### [Back to Table of Contents](#table)
  
-  # Contribution
+  ### Contribution
   ${response.contribution}
  
   ###### [Back to Table of Contents](#table)
    
-  # Tests
+  ### Tests
   ${response.test}
   
   ###### [Back to Table of Contents](#table)
   
-  # License
+  ### License
   ${response.license}
 
   ###### [Back to Table of Contents](#table)
 
-  # userName
+  ### userName
   ${response.userName} 
 
   ###### [Back to Table of Contents](#table)
 
-  # email
+  ### email
   ${response.email}
   
   ###### [Back to Table of Contents](#table)

@@ -1,10 +1,10 @@
-# coco
+# cococ
 
   # dog
-  coco
+  cococ
   
   # Description
-  coco
+  ocococ
   
   ## Table of contents
   * [Installation] (#installation)
@@ -22,27 +22,27 @@
   
   
   # Usage
-  cocooccooc
+  cocococ
 
   ###### [Back to Table of Contents](#table)
  
   # Contribution
-  co
+  coc
  
   ###### [Back to Table of Contents](#table)
    
   # Tests
-  cooc
+  occooc
   
   ###### [Back to Table of Contents](#table)
   
   # License
-  MIT
+  APACHE 2.O
 
   ###### [Back to Table of Contents](#table)
 
   # userName
-  ciioco 
+  ocococ 
 
   ###### [Back to Table of Contents](#table)
 
