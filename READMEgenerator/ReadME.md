@@ -1,11 +1,10 @@
-function fileGenerator(response) {
-    var content = `# ${response.title}
+# coco
 
   # dog
-  ${response.title}
+  coco
   
   # Description
-  ${response.description}
+  coco
   
   ## Table of contents
   * [Installation] (#installation)
@@ -19,40 +18,36 @@ function fileGenerator(response) {
   ###### [Back to Table of Contents](#Table-of-Contents)
   
   # Installation
-  ${response.installtion} 
+  undefined 
   
   
   # Usage
-  ${response.usage}
+  cocooccooc
 
   ###### [Back to Table of Contents](#table)
  
   # Contribution
-  ${response.contribution}
+  co
  
   ###### [Back to Table of Contents](#table)
    
   # Tests
-  ${response.test}
+  cooc
   
   ###### [Back to Table of Contents](#table)
   
   # License
-  ${response.license}
+  MIT
 
   ###### [Back to Table of Contents](#table)
 
   # userName
-  ${response.userName} 
+  ciioco 
 
   ###### [Back to Table of Contents](#table)
 
   # email
-  ${response.email}
+  coco
   
   ###### [Back to Table of Contents](#table)
-  `
-  return content; 
-};
-
-module.exports = fileGenerator;
+  
