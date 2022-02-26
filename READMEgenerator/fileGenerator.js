@@ -8,46 +8,45 @@ function fileGenerator(response) {
   ${response.description}
   
   ## Table of contents
-  * [Installation] (#Installation)
-  * [Usage] (#Usage)
-  * [Contribution] (#Contribution)
-  * [Tests] (#Test)
-  * [License] (#License)
-  * [User-Name] (#UserName)
-  * [Email] (#Email)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Contribution](#Contribution)
+  * [Tests](#Test)
+  * [License](#License)
+  * [User-Name](#UserName)
+  * [Email](#Email)
   
   ###### [Back to Table of Contents](#Table-of-Contents)
   
-  ### Installation
+  **###Installation**
   ${response.installation} 
   
   
-  ### Usage
+  **###Usage**
   ${response.usage}
 
  
-  ### Contribution
+  **###Contribution**
   ${response.contribution}
  
   
-  ### Tests
+  **###Tests**
   ${response.test}
   
 
   
-  ### userName
+  **###userName**
   ${response.userName} 
   
   
-  
-  ### email
+  **###email**
   ${response.email}
   
  
-  ### License
+  **###License**
   ${response.license}
   
-  ###### [Back to Table of Contents](#table)
+  ######[Back to Table of Contents](#table)
   
   `
   return content; 
