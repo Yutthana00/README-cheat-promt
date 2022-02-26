@@ -17,8 +17,8 @@ function fileGenerator(response) {
   <br>
 
   ## Table of contents
-  * [Github Repository](#Github-Repositories)
-  * [Installation](#Installation)
+  * Clicking [Github Repository](#Github-Repositories)
+  * Clicking [Installation](#Installation)
   * [Usage](#Usage)
   * [Contributor](#Contribution)
   * [Tests](#Test)
