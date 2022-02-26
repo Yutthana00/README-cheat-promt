@@ -46,7 +46,7 @@ function fileGenerator(response) {
   
   **Installation**:
   <br>
-  ${response.installation} 
+  To use this app, ${response.installation} 
   
   <br>
   
